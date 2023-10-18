@@ -44,7 +44,7 @@ const Form = () => {
   return (
     <Container maxWidth="sm">
       <form onSubmit={handleSubmit}>
-        <Typography variant="h4">Create Add</Typography>
+        <Typography variant="h4">Create Ad</Typography>
         <Box mt={2}>
           <TextField
             label="Name"
