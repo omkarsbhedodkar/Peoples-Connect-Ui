@@ -108,11 +108,11 @@ const Form = () => {
           </FormControl>
         </Box>
         <Box mt={2}>
-          <Button type="submit" variant="contained" color="primary">
+          <Button type="submit" variant="contained" color="error">
             Submit
           </Button>
-          <Button variant="contained" color="secondary" onClick={handleCancel} style={{ marginLeft: 10 }}>
-            Cancel
+          <Button variant="contained" color="inherit" onClick={handleCancel} style={{ marginLeft: 10 }}>
+            Reset
           </Button>
         </Box>
       </form>
